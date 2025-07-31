@@ -1,0 +1,6 @@
+cstats.c
+setup.py
+cstats.egg-info/PKG-INFO
+cstats.egg-info/SOURCES.txt
+cstats.egg-info/dependency_links.txt
+cstats.egg-info/top_level.txt

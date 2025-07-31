@@ -1,0 +1,222 @@
+Already logging to gdb.txt.
+The program has no registers now.
+Breakpoint 1 at 0x12b1
+Breakpoint 2 at 0x13a3
+Breakpoint 3 at 0x149d
+Note: breakpoint 3 also set at pc 0x149d.
+Breakpoint 4 at 0x149d
+Breakpoint 5 at 0x1556
+Breakpoint 6 at 0x1683
+Breakpoint 7 at 0x184c
+Starting program: /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, 0x00005555555552b1 in main ()
+Single stepping until exit from function main,
+which has no line number information.
+__printf (format=0x555555556008 "Enter %d full names of students:\n") at ./stdio-common/printf.c:28
+28	./stdio-common/printf.c: No such file or directory.
+Continuing.
+
+Breakpoint 2, 0x00005555555553a3 in getStudentNames ()
+Single stepping until exit from function getStudentNames,
+which has no line number information.
+__printf (format=0x555555556077 "Student %d: ") at ./stdio-common/printf.c:28
+28	in ./stdio-common/printf.c
+Continuing.
+
+Breakpoint 3, 0x000055555555549d in writeToFile ()
+process 157085
+Mapped address spaces:
+
+          Start Addr           End Addr       Size     Offset  Perms  objfile
+      0x555555554000     0x555555555000     0x1000        0x0  r--p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555555000     0x555555556000     0x1000     0x1000  r-xp   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555556000     0x555555557000     0x1000     0x2000  r--p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555557000     0x555555558000     0x1000     0x2000  r--p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555558000     0x555555559000     0x1000     0x3000  rw-p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555559000     0x55555557a000    0x21000        0x0  rw-p   [heap]
+      0x7ffff7c00000     0x7ffff7c28000    0x28000        0x0  r--p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7c28000     0x7ffff7dbd000   0x195000    0x28000  r-xp   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7dbd000     0x7ffff7e15000    0x58000   0x1bd000  r--p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e15000     0x7ffff7e16000     0x1000   0x215000  ---p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e16000     0x7ffff7e1a000     0x4000   0x215000  r--p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e1a000     0x7ffff7e1c000     0x2000   0x219000  rw-p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e1c000     0x7ffff7e29000     0xd000        0x0  rw-p   
+      0x7ffff7fa2000     0x7ffff7fa5000     0x3000        0x0  rw-p   
+      0x7ffff7fbb000     0x7ffff7fbd000     0x2000        0x0  rw-p   
+      0x7ffff7fbd000     0x7ffff7fc1000     0x4000        0x0  r--p   [vvar]
+      0x7ffff7fc1000     0x7ffff7fc3000     0x2000        0x0  r-xp   [vdso]
+      0x7ffff7fc3000     0x7ffff7fc5000     0x2000        0x0  r--p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7fc5000     0x7ffff7fef000    0x2a000     0x2000  r-xp   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7fef000     0x7ffff7ffa000     0xb000    0x2c000  r--p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7ffb000     0x7ffff7ffd000     0x2000    0x37000  r--p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7ffd000     0x7ffff7fff000     0x2000    0x39000  rw-p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffffffde000     0x7ffffffff000    0x21000        0x0  rw-p   [stack]
+  0xffffffffff600000 0xffffffffff601000     0x1000        0x0  --xp   [vsyscall]
+process 157085
+Mapped address spaces:
+
+          Start Addr           End Addr       Size     Offset  Perms  objfile
+      0x555555554000     0x555555555000     0x1000        0x0  r--p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555555000     0x555555556000     0x1000     0x1000  r-xp   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555556000     0x555555557000     0x1000     0x2000  r--p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555557000     0x555555558000     0x1000     0x2000  r--p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555558000     0x555555559000     0x1000     0x3000  rw-p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555559000     0x55555557a000    0x21000        0x0  rw-p   [heap]
+      0x7ffff7c00000     0x7ffff7c28000    0x28000        0x0  r--p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7c28000     0x7ffff7dbd000   0x195000    0x28000  r-xp   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7dbd000     0x7ffff7e15000    0x58000   0x1bd000  r--p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e15000     0x7ffff7e16000     0x1000   0x215000  ---p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e16000     0x7ffff7e1a000     0x4000   0x215000  r--p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e1a000     0x7ffff7e1c000     0x2000   0x219000  rw-p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e1c000     0x7ffff7e29000     0xd000        0x0  rw-p   
+      0x7ffff7fa2000     0x7ffff7fa5000     0x3000        0x0  rw-p   
+      0x7ffff7fbb000     0x7ffff7fbd000     0x2000        0x0  rw-p   
+      0x7ffff7fbd000     0x7ffff7fc1000     0x4000        0x0  r--p   [vvar]
+      0x7ffff7fc1000     0x7ffff7fc3000     0x2000        0x0  r-xp   [vdso]
+      0x7ffff7fc3000     0x7ffff7fc5000     0x2000        0x0  r--p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7fc5000     0x7ffff7fef000    0x2a000     0x2000  r-xp   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7fef000     0x7ffff7ffa000     0xb000    0x2c000  r--p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7ffb000     0x7ffff7ffd000     0x2000    0x37000  r--p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7ffd000     0x7ffff7fff000     0x2000    0x39000  rw-p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffffffde000     0x7ffffffff000    0x21000        0x0  rw-p   [stack]
+  0xffffffffff600000 0xffffffffff601000     0x1000        0x0  --xp   [vsyscall]
+Continuing.
+
+Breakpoint 5, 0x0000555555555556 in readFromFile ()
+process 157085
+Mapped address spaces:
+
+          Start Addr           End Addr       Size     Offset  Perms  objfile
+      0x555555554000     0x555555555000     0x1000        0x0  r--p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555555000     0x555555556000     0x1000     0x1000  r-xp   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555556000     0x555555557000     0x1000     0x2000  r--p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555557000     0x555555558000     0x1000     0x2000  r--p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555558000     0x555555559000     0x1000     0x3000  rw-p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555559000     0x55555557a000    0x21000        0x0  rw-p   [heap]
+      0x7ffff7c00000     0x7ffff7c28000    0x28000        0x0  r--p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7c28000     0x7ffff7dbd000   0x195000    0x28000  r-xp   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7dbd000     0x7ffff7e15000    0x58000   0x1bd000  r--p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e15000     0x7ffff7e16000     0x1000   0x215000  ---p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e16000     0x7ffff7e1a000     0x4000   0x215000  r--p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e1a000     0x7ffff7e1c000     0x2000   0x219000  rw-p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e1c000     0x7ffff7e29000     0xd000        0x0  rw-p   
+      0x7ffff7fa2000     0x7ffff7fa5000     0x3000        0x0  rw-p   
+      0x7ffff7fbb000     0x7ffff7fbd000     0x2000        0x0  rw-p   
+      0x7ffff7fbd000     0x7ffff7fc1000     0x4000        0x0  r--p   [vvar]
+      0x7ffff7fc1000     0x7ffff7fc3000     0x2000        0x0  r-xp   [vdso]
+      0x7ffff7fc3000     0x7ffff7fc5000     0x2000        0x0  r--p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7fc5000     0x7ffff7fef000    0x2a000     0x2000  r-xp   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7fef000     0x7ffff7ffa000     0xb000    0x2c000  r--p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7ffb000     0x7ffff7ffd000     0x2000    0x37000  r--p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7ffd000     0x7ffff7fff000     0x2000    0x39000  rw-p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffffffde000     0x7ffffffff000    0x21000        0x0  rw-p   [stack]
+  0xffffffffff600000 0xffffffffff601000     0x1000        0x0  --xp   [vsyscall]
+Single stepping until exit from function readFromFile,
+which has no line number information.
+_IO_new_fopen (filename=0x55555555602a "students.txt", mode=0x55555555609f "r") at ./libio/iofopen.c:85
+85	./libio/iofopen.c: No such file or directory.
+Continuing.
+
+Breakpoint 6, 0x0000555555555683 in sortNames ()
+process 157085
+Mapped address spaces:
+
+          Start Addr           End Addr       Size     Offset  Perms  objfile
+      0x555555554000     0x555555555000     0x1000        0x0  r--p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555555000     0x555555556000     0x1000     0x1000  r-xp   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555556000     0x555555557000     0x1000     0x2000  r--p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555557000     0x555555558000     0x1000     0x2000  r--p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555558000     0x555555559000     0x1000     0x3000  rw-p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555559000     0x55555557a000    0x21000        0x0  rw-p   [heap]
+      0x7ffff7c00000     0x7ffff7c28000    0x28000        0x0  r--p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7c28000     0x7ffff7dbd000   0x195000    0x28000  r-xp   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7dbd000     0x7ffff7e15000    0x58000   0x1bd000  r--p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e15000     0x7ffff7e16000     0x1000   0x215000  ---p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e16000     0x7ffff7e1a000     0x4000   0x215000  r--p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e1a000     0x7ffff7e1c000     0x2000   0x219000  rw-p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e1c000     0x7ffff7e29000     0xd000        0x0  rw-p   
+      0x7ffff7fa2000     0x7ffff7fa5000     0x3000        0x0  rw-p   
+      0x7ffff7fbb000     0x7ffff7fbd000     0x2000        0x0  rw-p   
+      0x7ffff7fbd000     0x7ffff7fc1000     0x4000        0x0  r--p   [vvar]
+      0x7ffff7fc1000     0x7ffff7fc3000     0x2000        0x0  r-xp   [vdso]
+      0x7ffff7fc3000     0x7ffff7fc5000     0x2000        0x0  r--p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7fc5000     0x7ffff7fef000    0x2a000     0x2000  r-xp   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7fef000     0x7ffff7ffa000     0xb000    0x2c000  r--p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7ffb000     0x7ffff7ffd000     0x2000    0x37000  r--p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7ffd000     0x7ffff7fff000     0x2000    0x39000  rw-p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffffffde000     0x7ffffffff000    0x21000        0x0  rw-p   [stack]
+  0xffffffffff600000 0xffffffffff601000     0x1000        0x0  --xp   [vsyscall]
+Continuing.
+
+Breakpoint 3, 0x000055555555549d in writeToFile ()
+process 157085
+Mapped address spaces:
+
+          Start Addr           End Addr       Size     Offset  Perms  objfile
+      0x555555554000     0x555555555000     0x1000        0x0  r--p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555555000     0x555555556000     0x1000     0x1000  r-xp   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555556000     0x555555557000     0x1000     0x2000  r--p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555557000     0x555555558000     0x1000     0x2000  r--p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555558000     0x555555559000     0x1000     0x3000  rw-p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555559000     0x55555557a000    0x21000        0x0  rw-p   [heap]
+      0x7ffff7c00000     0x7ffff7c28000    0x28000        0x0  r--p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7c28000     0x7ffff7dbd000   0x195000    0x28000  r-xp   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7dbd000     0x7ffff7e15000    0x58000   0x1bd000  r--p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e15000     0x7ffff7e16000     0x1000   0x215000  ---p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e16000     0x7ffff7e1a000     0x4000   0x215000  r--p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e1a000     0x7ffff7e1c000     0x2000   0x219000  rw-p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e1c000     0x7ffff7e29000     0xd000        0x0  rw-p   
+      0x7ffff7fa2000     0x7ffff7fa5000     0x3000        0x0  rw-p   
+      0x7ffff7fbb000     0x7ffff7fbd000     0x2000        0x0  rw-p   
+      0x7ffff7fbd000     0x7ffff7fc1000     0x4000        0x0  r--p   [vvar]
+      0x7ffff7fc1000     0x7ffff7fc3000     0x2000        0x0  r-xp   [vdso]
+      0x7ffff7fc3000     0x7ffff7fc5000     0x2000        0x0  r--p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7fc5000     0x7ffff7fef000    0x2a000     0x2000  r-xp   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7fef000     0x7ffff7ffa000     0xb000    0x2c000  r--p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7ffb000     0x7ffff7ffd000     0x2000    0x37000  r--p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7ffd000     0x7ffff7fff000     0x2000    0x39000  rw-p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffffffde000     0x7ffffffff000    0x21000        0x0  rw-p   [stack]
+  0xffffffffff600000 0xffffffffff601000     0x1000        0x0  --xp   [vsyscall]
+Continuing.
+[Inferior 1 (process 157085) exited normally]
+No current process: you must name one.
+The program is not being run.
+Starting program: /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, 0x00005555555552b1 in main ()
+Continuing.
+
+Breakpoint 2, 0x00005555555553a3 in getStudentNames ()
+process 161939
+Mapped address spaces:
+
+          Start Addr           End Addr       Size     Offset  Perms  objfile
+      0x555555554000     0x555555555000     0x1000        0x0  r--p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555555000     0x555555556000     0x1000     0x1000  r-xp   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555556000     0x555555557000     0x1000     0x2000  r--p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555557000     0x555555558000     0x1000     0x2000  r--p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555558000     0x555555559000     0x1000     0x3000  rw-p   /home/keny/Documents/ALU/Linuxprogramming/linuxsummative/question1
+      0x555555559000     0x55555557a000    0x21000        0x0  rw-p   [heap]
+      0x7ffff7c00000     0x7ffff7c28000    0x28000        0x0  r--p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7c28000     0x7ffff7dbd000   0x195000    0x28000  r-xp   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7dbd000     0x7ffff7e15000    0x58000   0x1bd000  r--p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e15000     0x7ffff7e16000     0x1000   0x215000  ---p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e16000     0x7ffff7e1a000     0x4000   0x215000  r--p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e1a000     0x7ffff7e1c000     0x2000   0x219000  rw-p   /usr/lib/x86_64-linux-gnu/libc.so.6
+      0x7ffff7e1c000     0x7ffff7e29000     0xd000        0x0  rw-p   
+      0x7ffff7fa2000     0x7ffff7fa5000     0x3000        0x0  rw-p   
+      0x7ffff7fbb000     0x7ffff7fbd000     0x2000        0x0  rw-p   
+      0x7ffff7fbd000     0x7ffff7fc1000     0x4000        0x0  r--p   [vvar]
+      0x7ffff7fc1000     0x7ffff7fc3000     0x2000        0x0  r-xp   [vdso]
+      0x7ffff7fc3000     0x7ffff7fc5000     0x2000        0x0  r--p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7fc5000     0x7ffff7fef000    0x2a000     0x2000  r-xp   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7fef000     0x7ffff7ffa000     0xb000    0x2c000  r--p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7ffb000     0x7ffff7ffd000     0x2000    0x37000  r--p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffff7ffd000     0x7ffff7fff000     0x2000    0x39000  rw-p   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+      0x7ffffffde000     0x7ffffffff000    0x21000        0x0  rw-p   [stack]
+  0xffffffffff600000 0xffffffffff601000     0x1000        0x0  --xp   [vsyscall]

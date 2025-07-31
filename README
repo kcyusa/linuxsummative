@@ -1,0 +1,98 @@
+Multi-Program Repository
+This repository contains several programs written in Assembly and C to demonstrate file handling, statistics computation, multithreading, and socket-based chat systems.
+
+1. # Assembly Program – Count Lines in a File
+Description:
+
+Reads a text file in the same directory.
+
+Counts the number of lines in the file (including empty lines).
+
+Prints the total count to the console.
+
+Compile:
+
+nasm -f elf64 question2.asm -o question2.o
+ld question2.o -o question2
+Run:
+
+./question2
+2. # C Extension for Python – Statistics Module
+Description:
+
+A Python C extension module to efficiently compute:
+
+Sum of values
+
+Mean
+
+Standard deviation
+
+Mode
+
+Count of values
+
+Move to question3 folder:
+cd question3
+
+Build:
+
+python3 setup.py build
+Install (locally):
+
+python3 setup.py install --user
+Usage in Python:
+
+import stats
+
+data = [1.0, 2.0, 2.0, 3.0]
+print(stats.sum_values(data))
+print(stats.mean_values(data))
+print(stats.std_dev(data))
+print(stats.mode_value(data))
+print(stats.count_values(data))
+3. # Producer-Consumer Simulation (Multithreaded C Program)
+Description:
+
+Simulates a manufacturing system using the Producer-Consumer model.
+
+Producer adds items to a shared queue (max size 10).
+
+Consumer removes items from the queue.
+
+Uses pthread and condition variables for synchronization.
+
+Compile:
+
+gcc question4.c -o q4
+Run:
+
+./q4
+4. # Linux Multithreaded Chat System (Sockets + Threads)
+Description:
+
+Server handles up to 4 concurrent clients.
+
+Clients authenticate with a username.
+
+Supports private chat between users.
+
+/list to view online users, /switch to change chat target.
+
+Non-blocking message reception using threads.
+
+First move to question5 folder:
+cd question5
+
+Compile Server:
+
+gcc -C chat_server.c -o server 
+Compile Client:
+
+gcc -C chat_client.c -o client 
+Run Server:
+
+./server
+Run Client (in separate terminals):
+
+./client

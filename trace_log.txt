@@ -1,0 +1,75 @@
+execve("./question1", ["./question1"], 0x7ffcda3ff2e0 /* 26 vars */) = 0
+brk(NULL)                               = 0x612d9d63d000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffe9acf9c10) = -1 EINVAL (Invalid argument)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7c2ac0e4c000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=87320, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 87320, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7c2ac0e36000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\237\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 48, 848) = 48
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\325\31p\226\367\t\200\30)\261\30\257\33|\366c"..., 68, 896) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2220400, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2264656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c2ac0c00000
+mprotect(0x7c2ac0c28000, 2023424, PROT_NONE) = 0
+mmap(0x7c2ac0c28000, 1658880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7c2ac0c28000
+mmap(0x7c2ac0dbd000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7c2ac0dbd000
+mmap(0x7c2ac0e16000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x215000) = 0x7c2ac0e16000
+mmap(0x7c2ac0e1c000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7c2ac0e1c000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7c2ac0e33000
+arch_prctl(ARCH_SET_FS, 0x7c2ac0e33740) = 0
+set_tid_address(0x7c2ac0e33a10)         = 139721
+set_robust_list(0x7c2ac0e33a20, 24)     = 0
+rseq(0x7c2ac0e340e0, 0x20, 0, 0x53053053) = 0
+mprotect(0x7c2ac0e16000, 16384, PROT_READ) = 0
+mprotect(0x612d73a73000, 4096, PROT_READ) = 0
+mprotect(0x7c2ac0e86000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7c2ac0e36000, 87320)           = 0
+newfstatat(1, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x2), ...}, AT_EMPTY_PATH) = 0
+getrandom("\x9d\x57\x94\xd4\x80\x61\xe2\xb7", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x612d9d63d000
+brk(0x612d9d65e000)                     = 0x612d9d65e000
+write(1, "Enter 10 full names of students:"..., 33) = 33
+newfstatat(0, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x2), ...}, AT_EMPTY_PATH) = 0
+write(1, "Student 1: ", 11)             = 11
+read(0, "keny\n", 1024)                 = 5
+write(1, "Student 2: ", 11)             = 11
+read(0, "boy\n", 1024)                  = 4
+write(1, "Student 3: ", 11)             = 11
+read(0, "loraine\n", 1024)              = 8
+write(1, "Student 4: ", 11)             = 11
+read(0, "annabelle\n", 1024)            = 10
+write(1, "Student 5: ", 11)             = 11
+read(0, "constance\n", 1024)            = 10
+write(1, "Student 6: ", 11)             = 11
+read(0, "julius\n", 1024)               = 7
+write(1, "Student 7: ", 11)             = 11
+read(0, "caesar\n", 1024)               = 7
+write(1, "Student 8: ", 11)             = 11
+read(0, "rodrigo\n", 1024)              = 8
+write(1, "Student 9: ", 11)             = 11
+read(0, "messi\n", 1024)                = 6
+write(1, "Student 10: ", 12)            = 12
+read(0, "ronaldo\n", 1024)              = 8
+openat(AT_FDCWD, "students.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+write(3, "keny\nboy\nloraine\nannabelle\nconst"..., 73) = 73
+close(3)                                = 0
+openat(AT_FDCWD, "students.txt", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=73, ...}, AT_EMPTY_PATH) = 0
+read(3, "keny\nboy\nloraine\nannabelle\nconst"..., 4096) = 73
+close(3)                                = 0
+openat(AT_FDCWD, "sorted_students.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+write(3, "annabelle\nboy\ncaesar\nconstance\nj"..., 73) = 73
+close(3)                                = 0
+write(1, "\n", 1)                       = 1
+write(1, "Sorted names have been written t"..., 54) = 54
+exit_group(0)                           = ?
++++ exited with 0 +++
