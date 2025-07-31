@@ -1,7 +1,7 @@
 Multi-Program Repository
 This repository contains several programs written in Assembly and C to demonstrate file handling, statistics computation, multithreading, and socket-based chat systems.
 
-1. # Assembly Program – Count Lines in a File
+# 1. Assembly Program – Count Lines in a File
 Description:
 
 Reads a text file in the same directory.
@@ -17,7 +17,7 @@ ld question2.o -o question2
 Run:
 
 ./question2
-2. # C Extension for Python – Statistics Module
+# 2. C Extension for Python – Statistics Module
 Description:
 
 A Python C extension module to efficiently compute:
@@ -51,7 +51,7 @@ print(stats.mean_values(data))
 print(stats.std_dev(data))
 print(stats.mode_value(data))
 print(stats.count_values(data))
-3. # Producer-Consumer Simulation (Multithreaded C Program)
+# 3. Producer-Consumer Simulation (Multithreaded C Program)
 Description:
 
 Simulates a manufacturing system using the Producer-Consumer model.
@@ -68,7 +68,7 @@ gcc question4.c -o q4
 Run:
 
 ./q4
-4. # Linux Multithreaded Chat System (Sockets + Threads)
+# 4. Linux Multithreaded Chat System (Sockets + Threads)
 Description:
 
 Server handles up to 4 concurrent clients.
